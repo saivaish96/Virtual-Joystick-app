@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <io.github.controlwear.virtual.joystick.android.JoystickView
+        android:id="@+id/joystickView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        app:JV_backgroundColor="#c8d6e5"
+        app:JV_borderColor="#c8d6e5"
+        app:JV_borderWidth="4dp"
+        app:JV_buttonColor="#ee5253"
+        app:JV_buttonSizeRatio="35%"
+        app:JV_fixedCenter="false" />
+</RelativeLayout>
